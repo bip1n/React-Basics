@@ -1,0 +1,11 @@
+.app__title{
+    color: red;
+}
+
+.app__title--large{
+    font-size: 50px;
+}
+
+.app__title--small{
+    font-size: 20px;
+}
