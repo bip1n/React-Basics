@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
   /*
@@ -21,13 +22,22 @@ function App() {
 
   //BEM naming convention
   // BEM Stands for Block Element Modifier
+    // return(
+    //   <div className="app">
+    //     <h1 className = "app__title">This is a title.</h1>
+    //     <h2 className = "app__title--large">This is a large title.</h2>
+    //     <h2 className = "app__title--small">This is a small title.</h2>
+    
+    //   </div> 
+    // );
+  
+  
     return(
       <div className="app">
-        <h1 className = "app__title">This is a title.</h1>
-        <h2 className = "app__title--large">This is a large title.</h2>
-        <h2 className = "app__title--small">This is a small title.</h2>
-    
-      </div> 
+          <Header />
+          <h1 className="app__title"> This is a title</h1>
+      </div>
     );
+
   }
 export default App;
