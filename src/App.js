@@ -1,6 +1,5 @@
-import './App.css';
-import Header from './Header';
-
+import Appbar from './Components/Appbar';
+import ContentCard from './Components/ContentCard';
 function App() {
   /*
   const name = 'Josh Perez';
@@ -34,8 +33,8 @@ function App() {
   
     return(
       <div className="app">
-          <Header />
-          <h1 className="app__title"> This is a title</h1>
+          <Appbar/>
+          <ContentCard/>
       </div>
     );
 
